@@ -7,7 +7,7 @@ int main() {
     int hours = a; 
     
     while (a >= b){
-        // numb is the amount of candles required to make a new candle
+        // numb is the amount of new candles made from old candles
         int numb = a/b;
         hours += numb;
         int m = a % b;
